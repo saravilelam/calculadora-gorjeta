@@ -140,5 +140,49 @@ main{
 .resultados p strong{
     color: var(--white);
     font-size: 1rem;
-    
+}
+
+.resultado div > strong{
+    color: var(--light-green);
+    font-size: 2rem;
+}
+
+.resultados .gorjeta-total{
+    margin-bottom: 1.25rem;
+}
+
+.resultados .total{
+    margin-bottom: 2rem;
+}
+
+.resultados button{
+    width: 100%;
+    background-color: var(--light-green);
+    border: none;
+    border-radius: 0.3125rem;
+    color: var(--green-800);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    padding-block: 0.5rem;
+}
+
+@media(min-width:920px) {
+    main{
+        display: flex;
+        gap: 3rem;
+        padding: 3rem;
+        border-radius: 1.5425rem;
+        max-width: 57.5rem;
+        margin-inline: auto;
+
+    }
+
+    main section{
+        width: 100%;
+    }
+
+    .gorjeta div{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
