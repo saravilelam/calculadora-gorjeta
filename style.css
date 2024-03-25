@@ -128,7 +128,7 @@ main{
     justify-content: space-between;
 }
 
-div.pessoas div.erro{
+.pessoas #erro-div{
     outline: 2px solid var(--danger);
 }
 
